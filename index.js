@@ -5,7 +5,7 @@ const port = process.env.PORT || 3002
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200
-    res.setHeader('Content-Type', 'text/plain')
+    res.setHeader('Content-Type', 'text/html')
     res.end('<style>\
     * {\
         color: lightblue;\
